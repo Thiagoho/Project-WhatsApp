@@ -6,7 +6,7 @@ Para garantir que o projeto funcione corretamente em qualquer máquina, é impor
 
 Dependência	Versão	Descrição
 
-{
+
 a0xios	^1.8.4	Cliente HTTP para fazer requisições à APIs externas.<br>
 body-parser	^1.20.3	Middleware usado para interpretar dados enviados no corpo da requisição.<br>
 cors	^2.8.5	Permite que o backend aceite requisições de diferentes domínios (CORS).<br>
@@ -19,7 +19,7 @@ qrcode	^1.5.4	Gera QR Codes em imagem (ex: para login via WhatsApp).<br>
 qrcode-terminal	^0.12.0	Gera QR Codes diretamente no terminal.<br>
 sequelize	^6.37.5	ORM para banco de dados relacional (como MySQL).<br>
 <br>whatsapp-web.js	^1.26.0	Biblioteca principal para controlar um número do WhatsApp via código.
-}
+
 
 🚀 Como instalar todas as dependências
 ### Instala todas as dependências listadas no package.json
