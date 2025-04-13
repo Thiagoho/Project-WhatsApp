@@ -1,54 +1,37 @@
-Vou explicar de forma clara como tudo isso funciona e como o seu bot vai operar
-no seu servidor.
-'O bot foi desenvolvido usando o whatsapp-web.js, uma biblioteca que permite automatizar
-interações no WhatsAppWeb. Ele age como um assistenten virtual, respondendo mensagens e guiando 
-os usuário pelo processo de cadastro no Lava jato.'
 
-=> Como ele vai se conectar ao WhatsApp:
-º Sempre que você iniciar o bot, ele gerar um Qr Code.
-º Você precisar escanear o QR Code com o número do WhatsApp que será usado como atendente
-virtual. O bot vai permanecer ativo e responder os clientes automaticamente.
+📦 Dependências do Projeto
+Para garantir que o projeto funcione corretamente em qualquer máquina, é importante instalar todas as dependências listadas no package.json. Aqui está uma explicação de cada uma delas:
 
-AGORA VAMOS INSTALL AS DEPENDÊNCIAS NECESSÁRIAS
-### npm install whatsapp-web.js qrcode-terminal fs
-|> Aqui, fs (File System) será usado para salvar e carregar a sessão.
+🔧 Dependências (necessárias para rodar o projeto)
 
-INICIAR O BOT AUTOMATICAMENTE QUANDO O SERVIDOR LIGAR:
-|> Vá no terminal do VScode da os seguinte comando:
-### @echo off
-### cd C:\caminho\do\seu\bot
-### node index.js ou nodemon bot.js
+Dependência	Versão	Descrição
+
+{
+axios	^1.8.4	Cliente HTTP para fazer requisições à APIs externas.
+body-parser	^1.20.3	Middleware usado para interpretar dados enviados no corpo da requisição.
+cors	^2.8.5	Permite que o backend aceite requisições de diferentes domínios (CORS).
+dotenv	^16.4.7	Carrega variáveis de ambiente de um arquivo .env.
+express	^4.21.2	Framework web para Node.js usado para criar as rotas da API.
+jimp	^1.6.0	Biblioteca para manipulação de imagens (ex: gerar imagens personalizadas).
+mysql	^2.18.1	Driver de conexão com banco de dados MySQL. (pode ser substituído por mysql2)
+puppeteer	^24.4.0	Controla o navegador via código. Usado para automações web (opcional).
+qrcode	^1.5.4	Gera QR Codes em imagem (ex: para login via WhatsApp).
+qrcode-terminal	^0.12.0	Gera QR Codes diretamente no terminal.
+sequelize	^6.37.5	ORM para banco de dados relacional (como MySQL).
+whatsapp-web.js	^1.26.0	Biblioteca principal para controlar um número do WhatsApp via código.
+}
+
+🚀 Como instalar todas as dependências
+### Instala todas as dependências listadas no package.json
+npm install
+
+🛠️ Requisitos básicos para rodar o projeto
+Node.js (versão 16 ou superior recomendada)
+
+NPM (gerenciador de pacotes, já vem com o Node)
+
+XAMPP (ou MySQL instalado localmente)
+
+Git (opcional, mas facilita clonar o repositório)
 
 
-
-COMO RODAR O PROJETO BAIXA
-Instalar todas as dependências pele package.json
-### nmp install
-
-SEQUÊNCIA PARA CRIAR O PROJETO
-Criar o arquivo package
-### npm init
-
-Gerência as requisições, rotas e URLS, entre outra funcionalidaes
-### npm install express
-
-Rodar o projeto 
-### node bot.js
-
-Rodar o projeto no navegador 
-### http://localhost:3000
-
-Instalar o módulo para reiniciar o servidor sempre que houver alteração no código
-fonte, g significa globalmente
-### npm install -g nodemon 
-### npm install --save-dev nodemon
-
-Rodar o projeto com nodemon
-### nodemon bot.js
-
-Sequelize é um biblioteca JavaScript que facilita o gerenciamento de uma banco de 
-dados SQL
-### npm install --save sequelize
-
-Instalar o Drive do Bando de Dados -> MYSQL
-### npm install --save mysql2
