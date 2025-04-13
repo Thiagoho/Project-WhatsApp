@@ -1,0 +1,7 @@
+2025/04/10-18:29:01.600 223c Reusing MANIFEST C:\Users\Thiago Sales\OneDrive\Área de Trabalho\Rob_Teste\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/10-18:29:01.601 223c Recovering log #2116
+2025/04/10-18:29:01.794 223c Reusing old log C:\Users\Thiago Sales\OneDrive\Área de Trabalho\Rob_Teste\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002116.log 
+2025/04/10-18:29:03.612 6c Level-0 table #2127: started
+2025/04/10-18:29:03.646 6c Level-0 table #2127: 737951 bytes OK
+2025/04/10-18:29:03.653 6c Delete type=0 #2116
+2025/04/10-18:29:03.653 223c Manual compaction at level-0 from ' \xe1\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xe2\x01\x00\x00\x00' @ 0 : 0; will stop at (end)

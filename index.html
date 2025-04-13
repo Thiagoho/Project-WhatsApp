@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Veículo</title>
+</head>
+
+<body>
+    <h2>Cadastro de Veículo</h2>
+    <form id="formCadastro">
+        <label for="placa">Placa:</label>
+        <input type="text" id="placa" required><br><br>
+
+        <label form="marca">Marca:</label>
+        <input type="text" id="marca" required><br><br>
+
+        <label form="hora">Horário</label>
+        <input type="datetime-local" id="Horário" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+
+
+    </form>
+    <script>
+        document.getElementById("formCadastro").addEventListener("submit", async function (event) {
+            event.preventDefault();
+            const placa = document.getElementById("placa").value;
+            const marca = document.getElementById("marca").value;
+            const horario = document.getElementById("horario").value;
+
+            const dados = {
+                placa,
+                marca,
+                horario
+            }
+            try {
+                const response = await fetch("http://localhost:3000/cadastrar-veiculo", {
+                    method: "POST",
+                    headers: {
+                        "content-Type": "aplication/json"
+                    },
+                    body: JSON.stringify(dados)
+                });
+
+                const resultado = await response.json();
+                if (response.ok) {
+                    alert("Veículo cadastrado com Sucesso!");
+                } else {
+                    alert("ERRO:" + resultado.error);
+                }
+
+            } catch (error) {
+                alert("ERRO ao enviar os dados.");
+            }
+        });
+    </script>
+</body>
+
+</html>

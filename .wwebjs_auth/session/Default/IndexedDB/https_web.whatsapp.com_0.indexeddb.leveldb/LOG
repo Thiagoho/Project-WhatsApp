@@ -1,0 +1,66 @@
+2025/04/10-18:29:11.505 1ec0 Reusing MANIFEST C:\Users\Thiago Sales\OneDrive\Área de Trabalho\Rob_Teste\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/10-18:29:11.506 1ec0 Recovering log #2126
+2025/04/10-18:29:11.506 1ec0 Reusing old log C:\Users\Thiago Sales\OneDrive\Área de Trabalho\Rob_Teste\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/002126.log 
+2025/04/10-18:29:12.884 1ec0 Compacting 1@1 + 7@2 files
+2025/04/10-18:29:13.045 1ec0 Generated table #2129@1: 85245 keys, 2235320 bytes
+2025/04/10-18:29:13.204 1ec0 Generated table #2130@1: 97279 keys, 2249186 bytes
+2025/04/10-18:29:13.360 1ec0 Generated table #2131@1: 88736 keys, 2298868 bytes
+2025/04/10-18:29:13.453 1ec0 Generated table #2132@1: 18439 keys, 2188390 bytes
+2025/04/10-18:29:13.453 1ec0 Level-0 table #2134: started
+2025/04/10-18:29:13.463 1ec0 Level-0 table #2134: 17199 bytes OK
+2025/04/10-18:29:13.470 1ec0 Delete type=0 #2126
+2025/04/10-18:29:13.556 1ec0 Generated table #2135@1: 20586 keys, 2169215 bytes
+2025/04/10-18:29:13.749 1ec0 Generated table #2136@1: 94920 keys, 2242000 bytes
+2025/04/10-18:29:13.787 1ec0 Generated table #2137@1: 17823 keys, 357585 bytes
+2025/04/10-18:29:13.787 1ec0 Compacted 1@1 + 7@2 files => 13740564 bytes
+2025/04/10-18:29:13.793 1ec0 compacted to: files[ 1 0 7 0 0 0 0 ]
+2025/04/10-18:29:13.794 1f2c Manual compaction at level-0 from ' \xe2\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \xe3\x01\x00\x00\x00' @ 0 : 0; will stop at ' \xe2\x01\x00\x00\x05' @ 3460774 : 1
+2025/04/10-18:29:13.794 1f2c Compacting 1@0 + 0@1 files
+2025/04/10-18:29:13.803 1f2c Generated table #2138@0: 406 keys, 8275 bytes
+2025/04/10-18:29:13.803 1f2c Compacted 1@0 + 0@1 files => 8275 bytes
+2025/04/10-18:29:13.809 1f2c compacted to: files[ 0 1 7 0 0 0 0 ]
+2025/04/10-18:29:13.809 1f2c Delete type=2 #2134
+2025/04/10-18:29:13.810 1f2c Manual compaction at level-0 from ' \xe2\x01\x00\x00\x05' @ 3460774 : 1 .. ' \xe3\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/10-18:29:17.256 1f2c Compacting 1@1 + 4@2 files
+2025/04/10-18:29:17.415 1f2c Generated table #2139@1: 85189 keys, 2234192 bytes
+2025/04/10-18:29:17.578 1f2c Generated table #2140@1: 97269 keys, 2248759 bytes
+2025/04/10-18:29:17.733 1f2c Generated table #2141@1: 88875 keys, 2297175 bytes
+2025/04/10-18:29:17.806 1f2c Generated table #2142@1: 18324 keys, 2189615 bytes
+2025/04/10-18:29:17.816 1f2c Generated table #2143@1: 126 keys, 6467 bytes
+2025/04/10-18:29:17.816 1f2c Compacted 1@1 + 4@2 files => 8976208 bytes
+2025/04/10-18:29:17.822 1f2c compacted to: files[ 0 0 8 0 0 0 0 ]
+2025/04/10-18:29:17.822 1f2c Delete type=2 #2118
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2119
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2120
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2121
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2122
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2123
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2124
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2127
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2129
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2130
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2131
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2132
+2025/04/10-18:29:17.823 1f2c Delete type=2 #2138
+2025/04/10-19:20:41.964 1f2c Level-0 table #2145: started
+2025/04/10-19:20:42.029 1f2c Level-0 table #2145: 1277251 bytes OK
+2025/04/10-19:20:42.036 1f2c Delete type=0 #2133
+2025/04/10-19:20:52.105 1f2c Compacting 1@1 + 8@2 files
+2025/04/10-19:20:52.310 1f2c Generated table #2146@1: 84751 keys, 2234630 bytes
+2025/04/10-19:20:52.467 1f2c Generated table #2147@1: 97073 keys, 2248346 bytes
+2025/04/10-19:20:52.628 1f2c Generated table #2148@1: 92662 keys, 2285081 bytes
+2025/04/10-19:20:52.701 1f2c Generated table #2149@1: 16359 keys, 2201070 bytes
+2025/04/10-19:20:52.790 1f2c Generated table #2150@1: 23013 keys, 2178208 bytes
+2025/04/10-19:20:52.954 1f2c Generated table #2151@1: 86678 keys, 2231184 bytes
+2025/04/10-19:20:53.010 1f2c Generated table #2152@1: 27890 keys, 554703 bytes
+2025/04/10-19:20:53.010 1f2c Compacted 1@1 + 8@2 files => 13933222 bytes
+2025/04/10-19:20:53.016 1f2c compacted to: files[ 0 0 7 0 0 0 0 ]
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2135
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2136
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2137
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2139
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2140
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2141
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2142
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2143
+2025/04/10-19:20:53.016 1f2c Delete type=2 #2145
